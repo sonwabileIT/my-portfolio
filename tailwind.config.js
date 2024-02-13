@@ -11,6 +11,7 @@ module.exports = {
       'teal-900':'#134e4a',
        orange:colors.orange,
        white: colors.white,
+       black: colors.black,
     },
     extend: {},
   },
