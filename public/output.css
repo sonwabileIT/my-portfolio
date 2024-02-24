@@ -722,6 +722,10 @@ video {
   flex-grow: 0;
 }
 
+.max-w-screen-xl {
+  max-width: 1280px;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -732,10 +736,6 @@ video {
 
 .flex-row {
   flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .items-center {
@@ -790,7 +790,6 @@ video {
 .border-2 {
   border-width: 2px;
 }
-
 .border-teal-900 {
   --tw-border-opacity: 1;
   border-color: rgb(19 78 74 / var(--tw-border-opacity));
