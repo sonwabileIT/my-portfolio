@@ -877,6 +877,18 @@ video {
   color: rgb(234 88 12 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .sm\:mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mx-12 {
     margin-left: 3rem;
