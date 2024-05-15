@@ -635,10 +635,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
 .block {
   display: block;
 }
@@ -818,6 +814,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pl-14 {
   padding-left: 3.5rem;
 }
@@ -889,18 +890,6 @@ video {
 
   .md\:mr-12 {
     margin-right: 3rem;
-  }
-
-  .md\:mt-3 {
-    margin-top: 0.75rem;
-  }
-
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .md\:mt-6 {
-    margin-top: 1.5rem;
   }
 
   .md\:h-10 {
